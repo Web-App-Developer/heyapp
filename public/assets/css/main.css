@@ -1,0 +1,160 @@
+.content--wrapper{
+	background: #181D21;
+	padding: 20px;
+	color: #fdfdfd;
+	border-radius: 5px;
+	box-sizing: border-box;
+	/* box-shadow: 0 -10px 13px 0 rgb(0 0 0); */
+	border: 2px solid #192A59;
+}
+
+.table tr td,
+.table tr th{
+	border:none;
+	color: white;
+}
+
+
+.left--col{
+	width: 30%
+}
+.right--col{
+	width: 70%
+}
+.block--divider{
+	border-bottom: 1px solid #fee600;
+	padding-bottom: 10px;
+}
+
+img {
+    width: 5rem;
+}
+
+.left_logo {
+    width: 22rem;
+    float: left;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.__left_logo_text{
+    display:inline-block;
+    width:5rem;
+}
+.__left_logo_img{
+    display:inline-block;
+    width:5rem;
+}
+.right_logo {
+    display:flex;
+    flex-wrap: wrap;
+    width: 15rem;
+    float: right;
+    align-items: center;
+}
+.right_logo_1 {
+    display: inline-block;
+    width: 7rem;
+}
+.right_logo_2 {
+    display: inline-block;
+    width: 7rem;
+}
+section.header {
+    background: #f7f7f7;
+    position: relative;
+    border-bottom: 3px solid #fee600;
+    margin-bottom: 30px;
+}
+.left_logo img {
+    position: relative;
+    left: 23px;
+    bottom: 5px;
+}
+
+.right_logo img {
+    position: relative;
+    left: 30px;
+}
+.left_logo img {
+    position: relative;
+    left: 17px;
+    bottom: 4px;
+    width: 56px;
+}
+
+.right_logo img {
+    position: relative;
+    left: 30px;
+    width: 80px;
+    vertical-align: bottom;
+}
+
+body {
+    background: #252A2E;
+}
+
+span.h_letter {
+    color: #192a58;
+    line-height: 24px;
+    text-transform:uppercase;
+}
+
+span.ey_letter {
+    color: #fee600;
+}
+
+span.by_letter {
+    color: silver;
+}
+
+/* reproduction */
+.__desktop-p-5{
+    width:100% ;
+}
+@media(max-width:450px){
+    .p_letter{
+        margin: 20px 0 0 0;
+    }
+    .left_logo{
+        width:50%;
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .left_logo .__left_logo_text {
+        display: inline-block;
+        width: 9rem;
+    }
+    .left_logo .__left_logo_img{
+        position: relative;
+        left: 6px;
+        bottom: -3px;
+        width: 53px !important;
+    }
+    
+    .right_logo{
+        display: flex;
+        flex-wrap: wrap;
+        width: 6rem;
+        float: right;
+        align-items: center;
+    }
+    .right_logo img{
+        position: relative;
+        left: 13px;
+        width: 80px;
+        vertical-align: bottom;
+    }
+
+}
+@media (max-width: 320px){
+    .right_logo {
+        display: flex;
+        flex-wrap: wrap;
+        width: 7rem;
+        float: right;
+        align-items: center;
+    }
+}

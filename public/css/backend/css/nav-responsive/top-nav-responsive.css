@@ -1,0 +1,5 @@
+@media only screen and (max-width: 991px) {
+  #visile_nav_when_other_is_toggle{
+		display: block;
+	}
+}

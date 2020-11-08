@@ -1,0 +1,62 @@
+/*add new customer form css*/
+#add_notes_btn{
+	text-align: left;
+}
+
+/*all processing gif styles*/
+#submit_info_form_process{
+	position: absolute;
+    z-index: 9999;
+    top: 50%;
+    left: 35%;
+    display: none;
+}
+#form_processing_gif{
+	position: absolute;
+    z-index: 9999;
+    top: 5%;
+    left: 30%;
+    display: none;
+}
+
+/*table with card- design*/
+.card-description{
+	border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+	
+
+/*override sweet alert design*/
+.swal-button{
+	background-color: #0A68D4 !important;
+}
+.swal-button:hover{
+	background-color: #0F7AF9 !important;
+}
+
+
+
+.left--part .nav{
+ display: block !important;
+}
+
+.no--boder-tbl .table tr th,
+.no--boder-tbl .table tr td{
+    border:none;
+}
+
+.details--page .header_{
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+.details--page .header_ h4{
+    margin: 0;
+    line-height: normal;
+}
+.details--page .details--wrapper{
+    border:1px solid #ddd;
+    padding: 5px
+}
